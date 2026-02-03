@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Proposal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Background Hearts -->
+    <div class="bg-hearts">
+        <div class="heart h1"></div>
+        <div class="heart h2"></div>
+        <div class="heart h3"></div>
+        <div class="heart h4"></div>
+        <div class="heart h5"></div>
+        <div class="heart h6"></div>
+    </div>
+
+    <div class="container">
+        <!-- Question Card -->
+        <div class="card" id="questionCard">
+            <h1 class="question-text" id="mainText">Would you be my Valentine?</h1>
+
+            <div class="buttons-container">
+                <button id="yesBtn" class="btn yes-btn">Yes</button>
+                <button id="noBtn" class="btn no-btn">No</button>
+            </div>
+        </div>
+
+        <!-- Success Card (Initially Hidden) -->
+        <div class="card hidden" id="successCard">
+            <h1 class="success-title">Yay! ❤️</h1>
+            <div class="details">
+                <p><strong>Venue:</strong> <span class="placeholder">{Venue Name}</span></p>
+                <p><strong>Time:</strong> <span class="placeholder">{Time}</span></p>
+                <p><strong>Dresscode:</strong> <span class="placeholder">{Dresscode}</span></p>
+            </div>
+            <div class="gif-container">
+                <!-- GIF Placeholder -->
+                <div class="gif-placeholder">GIF Placeholder</div>
+                <!-- Example GIF URL can be swapped here -->
+                <!-- <img src="..." alt="Happy GIF" /> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
